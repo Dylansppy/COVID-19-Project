@@ -69,7 +69,7 @@ def render_content(tab):
                         height=550,
                         width=600),
 
-            html.Iframe(children='同行查询',
+            html.Iframe(children='同程查询',
                         src="https://sa.sogou.com/new-weball/page/sgs/epidemic/yyxw?type_page=yangshi&from=singlemessage&isappinstalled=0",
                         height=550,
                         width=600)
