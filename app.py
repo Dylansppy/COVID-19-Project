@@ -32,7 +32,7 @@ app.layout = html.Div(children=[
     '''),
 
     dcc.Tabs(id="tabs", value='tab-1', children=[
-        dcc.Tab(label='疫情数据+同行查询', value='tab-1'),
+        dcc.Tab(label='疫情数据+同程查询', value='tab-1'),
         dcc.Tab(label='WHO+CDC', value='tab-2'),
         dcc.Tab(label='资源信息', value='tab-3')
     ]),
