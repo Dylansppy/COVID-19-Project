@@ -20,8 +20,14 @@ app.layout = html.Div(children=[
     html.H1(children='2019 Novel Coronavirus (2019-nCoV) Information Integration'),
 
     html.Div(children='''
-        Author: Dylan Shen
-        Github: https://github.com/Dylansppy/2019-nCov
+        Author: Dylan Shen 
+    '''),
+
+    html.Div(children='''
+        Github: https://github.com/Dylansppy/2019-nCov 
+    '''),
+
+    html.Div(children='''
         LinkedIn: https://www.linkedin.com/in/dylan-shen-peng
     '''),
 
