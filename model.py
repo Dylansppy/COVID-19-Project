@@ -7,14 +7,21 @@ Author: Dylan Shen
 ## 感染率拟合
 # 以2 0 1 9 年12 月8 日为第0 天， 起始感染者为1 人
 # 政府官方公布的数据
-# t = [0, 42, 43, 44, 45, 46]'; % 时间
-# I = [1 ,198 ,218 ,320 ,478 ,639] '; % 感染人数
+t = [0, 42, 43, 44, 45, 46] # 时间
+I = [1 ,198 ,218 ,320 ,478 ,639] # 感染人数
 
 # 回溯传播模型估算的数据
-#  t = [0 , 36 , 42] '; % 时间
-#  I = [1 ,1182 , 2758] '; % 感染人数
+# t = [0 , 36 , 42] # 时间
+# I = [1 ,1182 , 2758] # 感染人数
 
-ft = fittype('exp ((5*b -1/14)*x)'); % k = 5; D = 14;
+def func(b, x):
+    return exp((5*b -1/14)*x) # k = 5; D = 14;
+
+popt, pcov = optimize.curve_fit(func, t, I)
+    DA[i, ] = popt
+
+
+ft = fittype('exp ((5*b -1/14)*x)')
 f = fit(t,I,ft , 'Startpoint ', 0.1)
 plot(f,t,I, 'o')
 
@@ -26,19 +33,19 @@ def odesir(t, y, beta , gamma , N):
     return dy
      
 
-## SIR
-N = 11000000; % 武汉人口
-ts = [0, 270]; % 求解时间区间
-y0 = [N-1, 1 , 0]; % 初始条件[ S0 I0 R0 ]
-C = 14; % 感染的平均持续时间
-gamma = 1/C;
-k = 5; % 感染者每天平均接触人数
-b = 0.04133; % 接触时的传染概率
-% b = 0 . 0 5 2 1 4 ;
-beta = k*b;
-d = 0.03; % 死亡率
+## SIR模型
+N = 11000000 #武汉人口
+ts = [0, 270]  #求解时间区间
+y0 = [N-1, 1 , 0] # 初始条件[ S0 I0 R0 ]
+C = 14 # 感染的平均持续时间
+gamma = 1/C
+k = 5 # 感染者每天平均接触人数
+b = 0.04133 # 接触时的传染概率
+% b = 0 . 0 5 2 1 4 #
+beta = k*b 
+d = 0.03 # 死亡率
  
-[t, y] = ode45(@odesir , ts ,y0 , [], beta ,gamma , N);
+[t, y] = ode45(@odesir , ts ,y0 , [], beta ,gamma , N)
 y(C+1 : e n d ,4) = (N-y(1 : e n d -C,1))*d;
 plot(t,y);
 xlabel('Time (days)'); ylabel('Population ')
@@ -47,11 +54,11 @@ legend('S', 'I', 'R', 'D')
 
 ## 不同管控强度SIR 模型
 N = 11000000; % 武汉人口
-C = 14; % 感染的平均持续时间
-gamma = 1/C;
+C = 14 # 感染的平均持续时间
+gamma = 1/C
 #b = 0 . 0 4 1 3 3 ;
-b = 0.05214; # 接触时的传染概率
-d = 0.03; # 死亡率
+b = 0.05214 # 接触时的传染概率
+d = 0.03 # 死亡率
 
 # 第一阶段： 政府未管控
 ts = [0, 46];
@@ -90,6 +97,7 @@ alpha = 1/7;
 plot(t,y);
 xlabel('Time (days)'); ylabel('Population ')
 legend('S', 'E', 'I', 'R')
+
 def odeseir(t, y, beta , gamma , alpha , N):
     dy = [ -beta*y(1)*y(2)/N;
           beta*y(1)*y(2)/N - alpha*y(2);
