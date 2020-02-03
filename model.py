@@ -559,7 +559,7 @@ plt.xticks(fontsize=20)
 plt.yticks(fontsize=20)
 plt.legend()
 
-# Susceptible and infective population proportion
+# Population proportion
 def funcSEIRD(prop,_):
     Y = np.zeros(5) # Y[0] = s[t+1] - s[t], Y[1] = e[t+1] - e[t], Y[2] = i[t+1] - i[t], Y[3] = r[t+1]-r[t], Y[4]=d[t+1]-d[t]
     X = prop # X[0] = s[t], X[1] = i[t], X[2] = e[t], X[3]=r[t], X[4]=d[t]
@@ -578,7 +578,7 @@ def funcSEIRD(prop,_):
 T_range = np.arange(0,T + 1)
 RES = spi.odeint(funcSEIRD,INI,T_range)
 
-# susceptible and infective proportion plot
+# plot
 plt.plot(RES[:,0],color = 'darkblue',label = 'Susceptible',marker = '.')
 plt.plot(RES[:,1],color = 'red',label = 'Infection',marker = '.')
 plt.plot(RES[:,2],color = 'orange',label = 'Exposed',marker = '.')
