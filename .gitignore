@@ -21,3 +21,6 @@ venv
 .env
 node_modules
 .sass-cache
+
+# jupyter notebook checkpoint
+.ipynb_checkpoints/
