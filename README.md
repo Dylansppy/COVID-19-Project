@@ -4,6 +4,6 @@
 ###   App delopyed at https://novel-coronavirus-2019-ncov.herokuapp.com
 
 ## 2. Epidemic Model
-###   Epidemic model.ipynb
+###   Model construction (Deterministic vs. Stochastic Simulation)
+###   Parameter Estimation and model fit testing
 
-## 3. Parameter calculation
