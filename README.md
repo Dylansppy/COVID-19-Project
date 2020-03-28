@@ -8,3 +8,4 @@
 ###   Model construction (Deterministic vs. Stochastic Simulation)
 ###   Parameter Estimation and model fit testing
 
+## 3. Factors Exploration
