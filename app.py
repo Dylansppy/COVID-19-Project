@@ -67,7 +67,6 @@ def render_content(tab):
 
     elif tab == 'tab-2':
         return html.Div([
-            html.Div(children='''Ministry of Health'''),
             html.A("Ministry of Health", href='https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus', target="_blank")
         ])
 
