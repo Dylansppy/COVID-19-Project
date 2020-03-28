@@ -69,7 +69,7 @@ def render_content(tab):
         return html.Div([
             html.Div(children='''Ministry of Health'''),
             html.Iframe(children='Ministry of Health',
-                        src="https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases",
+                        src="https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus",
                         height=500,
                         width=1250)
         ])
