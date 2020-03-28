@@ -85,7 +85,7 @@ def render_content(tab):
 
             html.Div(children='''CDC'''),
             html.Iframe(children='CDC',
-                        src="https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+                        src="http://www.chinacdc.cn/jkzt/crb/zl/szkb_11803/",
                         height=500,
                         width=1250)
         ])
