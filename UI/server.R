@@ -88,11 +88,11 @@ shinyServer(function(input, output) {
     })
     
     output$Country_select <- renderUI({
-        selectInput("country","Select Country/Region", choices=unique(data()[,"Country_Region"]), selected=unique(data()[,"Country_Region"])[1])
+        selectInput("country","Country/Region", choices=unique(data()[,"Country_Region"]), selected="New Zealand")
     })
     
     output$Timeseries_select <- renderUI({
-        selectInput("target1","Select Timeseries", choices=tar_name(), selected=tar_name()[4])
+        selectInput("target1","Case", choices=tar_name(), selected=tar_name()[4])
     })
     
     # Timeseries plot
@@ -101,7 +101,7 @@ shinyServer(function(input, output) {
         subdata <- data()[data()[,'Country_Region'] == input$country, ]
         subdata$Date <- as.Date(subdata$Date)
         #tsdat <- ts(numData, frequency=6, start=c(2020, 1), end=c(2020,3))
-        ggplot(data = subdata, aes(x = Date, y = get(input$target1))) + geom_line() +
+        ggplot(data = subdata, aes(x = Date, y = get(input$target1))) + geom_line(linetype = "dashed") +
         geom_point() + xlab("Date") + ylab(input$target1)
             #tsdat, main="Timeseries of Numerical Variables", type = "l", col = alpha(rainbow(ncol(numData)), 0.4), xlab = "Date", ylab = "Values" ) 
     })

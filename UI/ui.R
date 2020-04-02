@@ -66,10 +66,10 @@ shinyUI(fluidPage(
         
         # Data vasualization panel
         tabPanel(
-            title = "Data Vasulization",
+            title = "Vasulization",
             tabsetPanel(
                 # Timeseries Panel
-                tabPanel(title="Timeseries",
+                tabPanel(title="Country-Level Trend",
                          icon=icon("chart-line"),
                          sidebarLayout(
                              sidebarPanel(
