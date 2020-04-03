@@ -94,7 +94,7 @@ shinyServer(function(input, output) {
     output$Timeseries_select <- renderUI({
         selectInput("target1","Case", choices=tar_name(), selected=tar_name()[4])
     })
-    
+
     # Timeseries plot
     output$time <- renderPlot({
         # choose the numeric columns
@@ -106,9 +106,97 @@ shinyServer(function(input, output) {
             #tsdat, main="Timeseries of Numerical Variables", type = "l", col = alpha(rainbow(ncol(numData)), 0.4), xlab = "Date", ylab = "Values" ) 
     })
     
+    # Latest Case
+    output$latest_case <- renderUI({
+        subdata <- data()[data()$Country_Region == input$country,]
+        str0 <- paste("Latest Situation on", subdata[nrow(subdata), 'Date'], ":")
+        str1 <- paste("New Confirmed Case: " , subdata[nrow(subdata), 'New_Confirmed_Cases'])
+        str2 <- paste("New Recovered Case: " , subdata[nrow(subdata), 'New_Recovered_Cases'])
+        str3 <- paste("New Fatalities: " , subdata[nrow(subdata), 'New_Fatalities'])
+        str4 <- paste("Active Confirmed Case: " , subdata[nrow(subdata), 'Remaining_Confirmed_Cases'])
+        str5 <- paste("Cumulative Confirmed Case: " , subdata[nrow(subdata), 'Total_Confirmed_Cases'])
+        str6 <- paste("Cumulative Recovered Case: " , subdata[nrow(subdata), 'Total_Recovered_Cases'])
+        str7 <- paste("Cumulative Fatalities: " , subdata[nrow(subdata), 'Total_Fatalities'])
+        HTML(paste(str0, str1, str2, str3, str4, str5, str6, str7, sep = '<br/>'))
+        
+    })
+    
     #Epidemic Model
     # SIR Model
-    output$Country <- renderUI({
-        selectInput("country_epi","Select Country/Region", choices=unique(data()[,"Country_Region"]), selected=unique(data()[,"Country_Region"])[1])
+    output$Country1 <- renderUI({
+        selectInput("country1","Select Country/Region", choices=unique(data()[,"Country_Region"]), selected="New Zealand")
+    })
+    
+    output$SIR <- renderPlot({
+        subdata2 <- data()[data()$Country_Region == input$country1,]
+        # Initial case numbers
+        N = subdata2[nrow(subdata2), 'Population']
+        I = 1
+        S = N-I
+        R = 0
+        D = 0
+        
+        # Coefficient
+        beta = input$beta
+        gamma = input$gamma
+        u = input$u
+        T = 365
+        
+        #equation
+        for (i in 1:(T-1)){
+            S[i+1] = S[i] - beta*S[i]*I[i]/N
+            I[i+1] = I[i] + beta*S[i]*I[i]/N - gamma*I[i] - u*I[i]
+            R[i+1] = R[i] + gamma*I[i]
+            D[i+1] = D[i] + u*I[i]
+        }
+        result <- data.frame(S, I, R, D)
+        X_lim <- seq(1,T,by=1)
+        plot(S~X_lim, pch=15, col="DarkTurquoise", main = "SIR Model", type = "l", xlab = "Day", ylab = "Number of Cases", xlim = c(0,T), ylim = c(0, N))
+        lines(S, col="DeepPink", lty=1) 
+        lines(I, col="RosyBrown", lty=1)
+        lines(R, col="Green", lty=1)
+        lines(D, col="DarkTurquoise", lty=1)
+        legend(280,N,c("Susceptible","Infected","Recovered", "Dead"),col=c("DeepPink","RosyBrown","Green","DarkTurquoise"),text.col=c("DeepPink","RosyBrown","Green", "DarkTurquoise"),lty=c(1,1,1,1))
+    })
+    
+    # SEIR Model
+    output$Country2 <- renderUI({
+        selectInput("country2","Select Country/Region", choices=unique(data()[,"Country_Region"]), selected="New Zealand")
+    })
+    
+    output$SEIR <- renderPlot({
+        subdata3 <- data()[data()$Country_Region == input$country2,]
+        # Initial case numbers
+        N = subdata3[nrow(subdata3), 'Population']
+        I = 1
+        E = 0
+        S = N-I
+        R = 0
+        D = 0
+        
+        # Coefficient
+        beta = input$beta2
+        gamma = input$gamma2
+        alpha = input$alpha
+        u = input$u2
+        T = 365
+        
+        #equation
+        for (i in 1:(T-1)){
+            S[i+1] = S[i] - beta*S[i]*I[i]/N
+            E[i+1] = E[i] + beta*S[i]*I[i]/N - alpha*E[i]
+            I[i+1] = I[i] + alpha*E[i] - gamma*I[i] - u*I[i]
+            R[i+1] = R[i] + gamma*I[i]
+            D[i+1] = D[i] + u*I[i]
+        }
+        result <- data.frame(S, E, I, R, D)
+        X_lim <- seq(1,T,by=1)
+        plot(S~X_lim, pch=15, col="DarkTurquoise", main = "SEIR Model", type = "l", xlab = "Day", ylab = "Number of Cases", xlim = c(0,T), ylim = c(0, N))
+        lines(S, col="DeepPink", lty=1) 
+        lines(E, col="Orange", lty=1)
+        lines(I, col="RosyBrown", lty=1)
+        lines(R, col="Green", lty=1)
+        lines(D, col="DarkTurquoise", lty=1)
+        legend(280,N,c("Susceptible","Exposed","Infected","Recovered", "Dead"),col=c("DeepPink","Orange","RosyBrown","Green","DarkTurquoise"),text.col=c("DeepPink","Orange","RosyBrown","Green", "DarkTurquoise"),lty=c(1,1,1,1,1))
     })
 })

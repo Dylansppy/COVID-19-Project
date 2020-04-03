@@ -68,6 +68,7 @@ shinyUI(fluidPage(
         tabPanel(
             title = "Vasulization",
             tabsetPanel(
+                tabPanel(title="Global Map"),
                 # Timeseries Panel
                 tabPanel(title="Country-Level Trend",
                          icon=icon("chart-line"),
@@ -77,7 +78,8 @@ shinyUI(fluidPage(
                                  uiOutput("Timeseries_select")
                              ),
                              mainPanel(
-                                 plotOutput("time")
+                                 plotOutput("time"),
+                                 htmlOutput("latest_case")
                              )
                          )
                 )
@@ -88,35 +90,69 @@ shinyUI(fluidPage(
         tabPanel(
             title = "Epidemic Model",
             tabsetPanel(
+                tabPanel(title = "Parameter Estimation"
+                ),
                 tabPanel(title = "SIR Model",
                          sidebarLayout(
                              sidebarPanel(
-                                 uiOutput("Country"),
-                                 sliderInput("β",
+                                 uiOutput("Country1"),
+                                 sliderInput("beta",
                                              "Infection Coefficient",
-                                             min = 10,
-                                             max = 100,
-                                             value = 80
+                                             min = 0,
+                                             max = 1,
+                                             value = 0.8
                                  ),
                                  sliderInput("gamma",
                                              "Recovery Rate",
-                                             min = 10,
-                                             max = 100,
-                                             value = 80
+                                             min = 0,
+                                             max = 1,
+                                             value = 0.5
                                  ),
                                  sliderInput("u",
                                              "Motality Rate",
-                                             min = 10,
-                                             max = 100,
-                                             value = 80
+                                             min = 0,
+                                             max = 1,
+                                             value = 0.1
                                  )
                              ),
                              mainPanel(
-                                 
+                                 plotOutput("SIR")
                              )
                         )
                 ),
-                tabPanel(title = "SEIR Model"
+                tabPanel(title = "SEIR Model",
+                         sidebarLayout(
+                             sidebarPanel(
+                                 uiOutput("Country2"),
+                                 sliderInput("beta2",
+                                             "Infection Coefficient",
+                                             min = 0,
+                                             max = 1,
+                                             value = 0.8
+                                 ),
+                                 sliderInput("alpha",
+                                             "Overt Rate",
+                                             min = 0,
+                                             max = 1,
+                                             value = 0.5
+                                 ),
+                                 sliderInput("gamma2",
+                                             "Recovery Rate",
+                                             min = 0,
+                                             max = 1,
+                                             value = 0.5
+                                 ),
+                                 sliderInput("u2",
+                                             "Motality Rate",
+                                             min = 0,
+                                             max = 1,
+                                             value = 0.1
+                                 )
+                             ),
+                             mainPanel(
+                                 plotOutput("SEIR")
+                             )
+                         )
                 )
             )
         )
