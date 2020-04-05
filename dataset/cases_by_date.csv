@@ -1,0 +1,1926 @@
+22/01/2020,23/01/2020,24/01/2020,25/01/2020,26/01/2020,27/01/2020,28/01/2020,29/01/2020,30/01/2020,31/01/2020,01/02/2020,02/02/2020,03/02/2020,04/02/2020,05/02/2020,06/02/2020,07/02/2020,08/02/2020,09/02/2020,10/02/2020,11/02/2020,12/02/2020,13/02/2020,14/02/2020,15/02/2020,16/02/2020,17/02/2020,18/02/2020,19/02/2020,20/02/2020,21/02/2020,22/02/2020,23/02/2020,24/02/2020,25/02/2020,26/02/2020,27/02/2020,28/02/2020,29/02/2020,01/03/2020,02/03/2020,03/03/2020,04/03/2020,05/03/2020,06/03/2020,07/03/2020,08/03/2020,09/03/2020,10/03/2020,11/03/2020,12/03/2020,13/03/2020,14/03/2020,15/03/2020,16/03/2020,17/03/2020,18/03/2020,19/03/2020,20/03/2020,21/03/2020,22/03/2020,23/03/2020,24/03/2020,25/03/2020,26/03/2020,27/03/2020,28/03/2020,29/03/2020,30/03/2020,31/03/2020,01/04/2020,02/04/2020,03/04/2020,04/04/2020
+"         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      0                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  22/01/2020          AFG  
+1                      0.0  22/01/2020          ALB  
+2                      0.0  22/01/2020          DZA  
+3                      0.0  22/01/2020          AND  
+4                      0.0  22/01/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  22/01/2020          VEN  
+177                    0.0  22/01/2020          VNM  
+178                    0.0  22/01/2020          NaN  
+179                    0.0  22/01/2020          ZMB  
+180                    0.0  22/01/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      2                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  23/01/2020          AFG  
+1                      0.0  23/01/2020          ALB  
+2                      0.0  23/01/2020          DZA  
+3                      0.0  23/01/2020          AND  
+4                      0.0  23/01/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  23/01/2020          VEN  
+177                    0.0  23/01/2020          VNM  
+178                    0.0  23/01/2020          NaN  
+179                    0.0  23/01/2020          ZMB  
+180                    0.0  23/01/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      2                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  24/01/2020          AFG  
+1                      0.0  24/01/2020          ALB  
+2                      0.0  24/01/2020          DZA  
+3                      0.0  24/01/2020          AND  
+4                      0.0  24/01/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  24/01/2020          VEN  
+177                    0.0  24/01/2020          VNM  
+178                    0.0  24/01/2020          NaN  
+179                    0.0  24/01/2020          ZMB  
+180                    0.0  24/01/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      2                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  25/01/2020          AFG  
+1                      0.0  25/01/2020          ALB  
+2                      0.0  25/01/2020          DZA  
+3                      0.0  25/01/2020          AND  
+4                      0.0  25/01/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  25/01/2020          VEN  
+177                    0.0  25/01/2020          VNM  
+178                    0.0  25/01/2020          NaN  
+179                    0.0  25/01/2020          ZMB  
+180                    0.0  25/01/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      2                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  26/01/2020          AFG  
+1                      0.0  26/01/2020          ALB  
+2                      0.0  26/01/2020          DZA  
+3                      0.0  26/01/2020          AND  
+4                      0.0  26/01/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  26/01/2020          VEN  
+177                    0.0  26/01/2020          VNM  
+178                    0.0  26/01/2020          NaN  
+179                    0.0  26/01/2020          ZMB  
+180                    0.0  26/01/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      2                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  27/01/2020          AFG  
+1                      0.0  27/01/2020          ALB  
+2                      0.0  27/01/2020          DZA  
+3                      0.0  27/01/2020          AND  
+4                      0.0  27/01/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  27/01/2020          VEN  
+177                    0.0  27/01/2020          VNM  
+178                    0.0  27/01/2020          NaN  
+179                    0.0  27/01/2020          ZMB  
+180                    0.0  27/01/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      2                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  28/01/2020          AFG  
+1                      0.0  28/01/2020          ALB  
+2                      0.0  28/01/2020          DZA  
+3                      0.0  28/01/2020          AND  
+4                      0.0  28/01/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  28/01/2020          VEN  
+177                    0.0  28/01/2020          VNM  
+178                    0.0  28/01/2020          NaN  
+179                    0.0  28/01/2020          ZMB  
+180                    0.0  28/01/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      2                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  29/01/2020          AFG  
+1                      0.0  29/01/2020          ALB  
+2                      0.0  29/01/2020          DZA  
+3                      0.0  29/01/2020          AND  
+4                      0.0  29/01/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  29/01/2020          VEN  
+177                    0.0  29/01/2020          VNM  
+178                    0.0  29/01/2020          NaN  
+179                    0.0  29/01/2020          ZMB  
+180                    0.0  29/01/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      2                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  30/01/2020          AFG  
+1                      0.0  30/01/2020          ALB  
+2                      0.0  30/01/2020          DZA  
+3                      0.0  30/01/2020          AND  
+4                      0.0  30/01/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  30/01/2020          VEN  
+177                    0.0  30/01/2020          VNM  
+178                    0.0  30/01/2020          NaN  
+179                    0.0  30/01/2020          ZMB  
+180                    0.0  30/01/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      2                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  31/01/2020          AFG  
+1                      0.0  31/01/2020          ALB  
+2                      0.0  31/01/2020          DZA  
+3                      0.0  31/01/2020          AND  
+4                      0.0  31/01/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  31/01/2020          VEN  
+177                    0.0  31/01/2020          VNM  
+178                    0.0  31/01/2020          NaN  
+179                    0.0  31/01/2020          ZMB  
+180                    0.0  31/01/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      6                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  01/02/2020          AFG  
+1                      0.0  01/02/2020          ALB  
+2                      0.0  01/02/2020          DZA  
+3                      0.0  01/02/2020          AND  
+4                      0.0  01/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  01/02/2020          VEN  
+177                    1.0  01/02/2020          VNM  
+178                    0.0  01/02/2020          NaN  
+179                    0.0  01/02/2020          ZMB  
+180                    0.0  01/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      6                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  02/02/2020          AFG  
+1                      0.0  02/02/2020          ALB  
+2                      0.0  02/02/2020          DZA  
+3                      0.0  02/02/2020          AND  
+4                      0.0  02/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  02/02/2020          VEN  
+177                    1.0  02/02/2020          VNM  
+178                    0.0  02/02/2020          NaN  
+179                    0.0  02/02/2020          ZMB  
+180                    0.0  02/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      8                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  03/02/2020          AFG  
+1                      0.0  03/02/2020          ALB  
+2                      0.0  03/02/2020          DZA  
+3                      0.0  03/02/2020          AND  
+4                      0.0  03/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  03/02/2020          VEN  
+177                    1.0  03/02/2020          VNM  
+178                    0.0  03/02/2020          NaN  
+179                    0.0  03/02/2020          ZMB  
+180                    0.0  03/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      8                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  04/02/2020          AFG  
+1                      0.0  04/02/2020          ALB  
+2                      0.0  04/02/2020          DZA  
+3                      0.0  04/02/2020          AND  
+4                      0.0  04/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  04/02/2020          VEN  
+177                    1.0  04/02/2020          VNM  
+178                    0.0  04/02/2020          NaN  
+179                    0.0  04/02/2020          ZMB  
+180                    0.0  04/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                      8                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  05/02/2020          AFG  
+1                      0.0  05/02/2020          ALB  
+2                      0.0  05/02/2020          DZA  
+3                      0.0  05/02/2020          AND  
+4                      0.0  05/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  05/02/2020          VEN  
+177                    1.0  05/02/2020          VNM  
+178                    0.0  05/02/2020          NaN  
+179                    0.0  05/02/2020          ZMB  
+180                    0.0  05/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     10                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  06/02/2020          AFG  
+1                      0.0  06/02/2020          ALB  
+2                      0.0  06/02/2020          DZA  
+3                      0.0  06/02/2020          AND  
+4                      0.0  06/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  06/02/2020          VEN  
+177                    1.0  06/02/2020          VNM  
+178                    0.0  06/02/2020          NaN  
+179                    0.0  06/02/2020          ZMB  
+180                    0.0  06/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     10                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  07/02/2020          AFG  
+1                      0.0  07/02/2020          ALB  
+2                      0.0  07/02/2020          DZA  
+3                      0.0  07/02/2020          AND  
+4                      0.0  07/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  07/02/2020          VEN  
+177                    1.0  07/02/2020          VNM  
+178                    0.0  07/02/2020          NaN  
+179                    0.0  07/02/2020          ZMB  
+180                    0.0  07/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     13                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  08/02/2020          AFG  
+1                      0.0  08/02/2020          ALB  
+2                      0.0  08/02/2020          DZA  
+3                      0.0  08/02/2020          AND  
+4                      0.0  08/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  08/02/2020          VEN  
+177                    1.0  08/02/2020          VNM  
+178                    0.0  08/02/2020          NaN  
+179                    0.0  08/02/2020          ZMB  
+180                    0.0  08/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     13                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  09/02/2020          AFG  
+1                      0.0  09/02/2020          ALB  
+2                      0.0  09/02/2020          DZA  
+3                      0.0  09/02/2020          AND  
+4                      0.0  09/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  09/02/2020          VEN  
+177                    1.0  09/02/2020          VNM  
+178                    0.0  09/02/2020          NaN  
+179                    0.0  09/02/2020          ZMB  
+180                    0.0  09/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     14                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  10/02/2020          AFG  
+1                      0.0  10/02/2020          ALB  
+2                      0.0  10/02/2020          DZA  
+3                      0.0  10/02/2020          AND  
+4                      0.0  10/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  10/02/2020          VEN  
+177                    1.0  10/02/2020          VNM  
+178                    0.0  10/02/2020          NaN  
+179                    0.0  10/02/2020          ZMB  
+180                    0.0  10/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     15                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  11/02/2020          AFG  
+1                      0.0  11/02/2020          ALB  
+2                      0.0  11/02/2020          DZA  
+3                      0.0  11/02/2020          AND  
+4                      0.0  11/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  11/02/2020          VEN  
+177                    6.0  11/02/2020          VNM  
+178                    0.0  11/02/2020          NaN  
+179                    0.0  11/02/2020          ZMB  
+180                    0.0  11/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     15                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  12/02/2020          AFG  
+1                      0.0  12/02/2020          ALB  
+2                      0.0  12/02/2020          DZA  
+3                      0.0  12/02/2020          AND  
+4                      0.0  12/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  12/02/2020          VEN  
+177                    6.0  12/02/2020          VNM  
+178                    0.0  12/02/2020          NaN  
+179                    0.0  12/02/2020          ZMB  
+180                    0.0  12/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  13/02/2020          AFG  
+1                      0.0  13/02/2020          ALB  
+2                      0.0  13/02/2020          DZA  
+3                      0.0  13/02/2020          AND  
+4                      0.0  13/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  13/02/2020          VEN  
+177                    7.0  13/02/2020          VNM  
+178                    0.0  13/02/2020          NaN  
+179                    0.0  13/02/2020          ZMB  
+180                    0.0  13/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  14/02/2020          AFG  
+1                      0.0  14/02/2020          ALB  
+2                      0.0  14/02/2020          DZA  
+3                      0.0  14/02/2020          AND  
+4                      0.0  14/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  14/02/2020          VEN  
+177                    7.0  14/02/2020          VNM  
+178                    0.0  14/02/2020          NaN  
+179                    0.0  14/02/2020          ZMB  
+180                    0.0  14/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  15/02/2020          AFG  
+1                      0.0  15/02/2020          ALB  
+2                      0.0  15/02/2020          DZA  
+3                      0.0  15/02/2020          AND  
+4                      0.0  15/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  15/02/2020          VEN  
+177                    7.0  15/02/2020          VNM  
+178                    0.0  15/02/2020          NaN  
+179                    0.0  15/02/2020          ZMB  
+180                    0.0  15/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  16/02/2020          AFG  
+1                      0.0  16/02/2020          ALB  
+2                      0.0  16/02/2020          DZA  
+3                      0.0  16/02/2020          AND  
+4                      0.0  16/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  16/02/2020          VEN  
+177                    7.0  16/02/2020          VNM  
+178                    0.0  16/02/2020          NaN  
+179                    0.0  16/02/2020          ZMB  
+180                    0.0  16/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  17/02/2020          AFG  
+1                      0.0  17/02/2020          ALB  
+2                      0.0  17/02/2020          DZA  
+3                      0.0  17/02/2020          AND  
+4                      0.0  17/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  17/02/2020          VEN  
+177                    7.0  17/02/2020          VNM  
+178                    0.0  17/02/2020          NaN  
+179                    0.0  17/02/2020          ZMB  
+180                    0.0  17/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  18/02/2020          AFG  
+1                      0.0  18/02/2020          ALB  
+2                      0.0  18/02/2020          DZA  
+3                      0.0  18/02/2020          AND  
+4                      0.0  18/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  18/02/2020          VEN  
+177                    7.0  18/02/2020          VNM  
+178                    0.0  18/02/2020          NaN  
+179                    0.0  18/02/2020          ZMB  
+180                    0.0  18/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  19/02/2020          AFG  
+1                      0.0  19/02/2020          ALB  
+2                      0.0  19/02/2020          DZA  
+3                      0.0  19/02/2020          AND  
+4                      0.0  19/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  19/02/2020          VEN  
+177                    7.0  19/02/2020          VNM  
+178                    0.0  19/02/2020          NaN  
+179                    0.0  19/02/2020          ZMB  
+180                    0.0  19/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  20/02/2020          AFG  
+1                      0.0  20/02/2020          ALB  
+2                      0.0  20/02/2020          DZA  
+3                      0.0  20/02/2020          AND  
+4                      0.0  20/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  20/02/2020          VEN  
+177                    7.0  20/02/2020          VNM  
+178                    0.0  20/02/2020          NaN  
+179                    0.0  20/02/2020          ZMB  
+180                    0.0  20/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  21/02/2020          AFG  
+1                      0.0  21/02/2020          ALB  
+2                      0.0  21/02/2020          DZA  
+3                      0.0  21/02/2020          AND  
+4                      0.0  21/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  21/02/2020          VEN  
+177                   14.0  21/02/2020          VNM  
+178                    0.0  21/02/2020          NaN  
+179                    0.0  21/02/2020          ZMB  
+180                    0.0  21/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  22/02/2020          AFG  
+1                      0.0  22/02/2020          ALB  
+2                      0.0  22/02/2020          DZA  
+3                      0.0  22/02/2020          AND  
+4                      0.0  22/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  22/02/2020          VEN  
+177                   14.0  22/02/2020          VNM  
+178                    0.0  22/02/2020          NaN  
+179                    0.0  22/02/2020          ZMB  
+180                    0.0  22/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      0                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  23/02/2020          AFG  
+1                      0.0  23/02/2020          ALB  
+2                      0.0  23/02/2020          DZA  
+3                      0.0  23/02/2020          AND  
+4                      0.0  23/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  23/02/2020          VEN  
+177                   14.0  23/02/2020          VNM  
+178                    0.0  23/02/2020          NaN  
+179                    0.0  23/02/2020          ZMB  
+180                    0.0  23/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      1                 0   
+1               Albania                      0                 0   
+2               Algeria                      0                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  24/02/2020          AFG  
+1                      0.0  24/02/2020          ALB  
+2                      0.0  24/02/2020          DZA  
+3                      0.0  24/02/2020          AND  
+4                      0.0  24/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  24/02/2020          VEN  
+177                   14.0  24/02/2020          VNM  
+178                    0.0  24/02/2020          NaN  
+179                    0.0  24/02/2020          ZMB  
+180                    0.0  24/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      1                 0   
+1               Albania                      0                 0   
+2               Algeria                      1                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  25/02/2020          AFG  
+1                      0.0  25/02/2020          ALB  
+2                      0.0  25/02/2020          DZA  
+3                      0.0  25/02/2020          AND  
+4                      0.0  25/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  25/02/2020          VEN  
+177                   16.0  25/02/2020          VNM  
+178                    0.0  25/02/2020          NaN  
+179                    0.0  25/02/2020          ZMB  
+180                    0.0  25/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      1                 0   
+1               Albania                      0                 0   
+2               Algeria                      1                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  26/02/2020          AFG  
+1                      0.0  26/02/2020          ALB  
+2                      0.0  26/02/2020          DZA  
+3                      0.0  26/02/2020          AND  
+4                      0.0  26/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  26/02/2020          VEN  
+177                   16.0  26/02/2020          VNM  
+178                    0.0  26/02/2020          NaN  
+179                    0.0  26/02/2020          ZMB  
+180                    0.0  26/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      1                 0   
+1               Albania                      0                 0   
+2               Algeria                      1                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  27/02/2020          AFG  
+1                      0.0  27/02/2020          ALB  
+2                      0.0  27/02/2020          DZA  
+3                      0.0  27/02/2020          AND  
+4                      0.0  27/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  27/02/2020          VEN  
+177                   16.0  27/02/2020          VNM  
+178                    0.0  27/02/2020          NaN  
+179                    0.0  27/02/2020          ZMB  
+180                    0.0  27/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      1                 0   
+1               Albania                      0                 0   
+2               Algeria                      1                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  28/02/2020          AFG  
+1                      0.0  28/02/2020          ALB  
+2                      0.0  28/02/2020          DZA  
+3                      0.0  28/02/2020          AND  
+4                      0.0  28/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  28/02/2020          VEN  
+177                   16.0  28/02/2020          VNM  
+178                    0.0  28/02/2020          NaN  
+179                    0.0  28/02/2020          ZMB  
+180                    0.0  28/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      1                 0   
+1               Albania                      0                 0   
+2               Algeria                      1                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  29/02/2020          AFG  
+1                      0.0  29/02/2020          ALB  
+2                      0.0  29/02/2020          DZA  
+3                      0.0  29/02/2020          AND  
+4                      0.0  29/02/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  29/02/2020          VEN  
+177                   16.0  29/02/2020          VNM  
+178                    0.0  29/02/2020          NaN  
+179                    0.0  29/02/2020          ZMB  
+180                    0.0  29/02/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      1                 0   
+1               Albania                      0                 0   
+2               Algeria                      1                 0   
+3               Andorra                      0                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  01/03/2020          AFG  
+1                      0.0  01/03/2020          ALB  
+2                      0.0  01/03/2020          DZA  
+3                      0.0  01/03/2020          AND  
+4                      0.0  01/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  01/03/2020          VEN  
+177                   16.0  01/03/2020          VNM  
+178                    0.0  01/03/2020          NaN  
+179                    0.0  01/03/2020          ZMB  
+180                    0.0  01/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      1                 0   
+1               Albania                      0                 0   
+2               Algeria                      3                 0   
+3               Andorra                      1                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  02/03/2020          AFG  
+1                      0.0  02/03/2020          ALB  
+2                      0.0  02/03/2020          DZA  
+3                      0.0  02/03/2020          AND  
+4                      0.0  02/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  02/03/2020          VEN  
+177                   16.0  02/03/2020          VNM  
+178                    0.0  02/03/2020          NaN  
+179                    0.0  02/03/2020          ZMB  
+180                    0.0  02/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      1                 0   
+1               Albania                      0                 0   
+2               Algeria                      5                 0   
+3               Andorra                      1                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  03/03/2020          AFG  
+1                      0.0  03/03/2020          ALB  
+2                      0.0  03/03/2020          DZA  
+3                      0.0  03/03/2020          AND  
+4                      0.0  03/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  03/03/2020          VEN  
+177                   16.0  03/03/2020          VNM  
+178                    0.0  03/03/2020          NaN  
+179                    0.0  03/03/2020          ZMB  
+180                    0.0  03/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      1                 0   
+1               Albania                      0                 0   
+2               Algeria                     12                 0   
+3               Andorra                      1                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      0                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  04/03/2020          AFG  
+1                      0.0  04/03/2020          ALB  
+2                      0.0  04/03/2020          DZA  
+3                      0.0  04/03/2020          AND  
+4                      0.0  04/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  04/03/2020          VEN  
+177                   16.0  04/03/2020          VNM  
+178                    0.0  04/03/2020          NaN  
+179                    0.0  04/03/2020          ZMB  
+180                    0.0  04/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      1                 0   
+1               Albania                      0                 0   
+2               Algeria                     12                 0   
+3               Andorra                      1                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      4                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  05/03/2020          AFG  
+1                      0.0  05/03/2020          ALB  
+2                      0.0  05/03/2020          DZA  
+3                      0.0  05/03/2020          AND  
+4                      0.0  05/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  05/03/2020          VEN  
+177                   16.0  05/03/2020          VNM  
+178                    0.0  05/03/2020          NaN  
+179                    0.0  05/03/2020          ZMB  
+180                    0.0  05/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      1                 0   
+1               Albania                      0                 0   
+2               Algeria                     17                 0   
+3               Andorra                      1                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     16                 0   
+178  West Bank and Gaza                      7                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  06/03/2020          AFG  
+1                      0.0  06/03/2020          ALB  
+2                      0.0  06/03/2020          DZA  
+3                      0.0  06/03/2020          AND  
+4                      0.0  06/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  06/03/2020          VEN  
+177                   16.0  06/03/2020          VNM  
+178                    0.0  06/03/2020          NaN  
+179                    0.0  06/03/2020          ZMB  
+180                    0.0  06/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      1                 0   
+1               Albania                      0                 0   
+2               Algeria                     17                 0   
+3               Andorra                      1                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     18                 0   
+178  West Bank and Gaza                     16                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  07/03/2020          AFG  
+1                      0.0  07/03/2020          ALB  
+2                      0.0  07/03/2020          DZA  
+3                      0.0  07/03/2020          AND  
+4                      0.0  07/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  07/03/2020          VEN  
+177                   16.0  07/03/2020          VNM  
+178                    0.0  07/03/2020          NaN  
+179                    0.0  07/03/2020          ZMB  
+180                    0.0  07/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      4                 0   
+1               Albania                      0                 0   
+2               Algeria                     19                 0   
+3               Andorra                      1                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     30                 0   
+178  West Bank and Gaza                     16                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  08/03/2020          AFG  
+1                      0.0  08/03/2020          ALB  
+2                      0.0  08/03/2020          DZA  
+3                      0.0  08/03/2020          AND  
+4                      0.0  08/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  08/03/2020          VEN  
+177                   16.0  08/03/2020          VNM  
+178                    0.0  08/03/2020          NaN  
+179                    0.0  08/03/2020          ZMB  
+180                    0.0  08/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      4                 0   
+1               Albania                      2                 0   
+2               Algeria                     20                 0   
+3               Andorra                      1                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     30                 0   
+178  West Bank and Gaza                     19                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  09/03/2020          AFG  
+1                      0.0  09/03/2020          ALB  
+2                      0.0  09/03/2020          DZA  
+3                      0.0  09/03/2020          AND  
+4                      0.0  09/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  09/03/2020          VEN  
+177                   16.0  09/03/2020          VNM  
+178                    0.0  09/03/2020          NaN  
+179                    0.0  09/03/2020          ZMB  
+180                    0.0  09/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      5                 0   
+1               Albania                     10                 0   
+2               Algeria                     20                 0   
+3               Andorra                      1                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     31                 0   
+178  West Bank and Gaza                     26                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  10/03/2020          AFG  
+1                      0.0  10/03/2020          ALB  
+2                      0.0  10/03/2020          DZA  
+3                      0.0  10/03/2020          AND  
+4                      0.0  10/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  10/03/2020          VEN  
+177                   16.0  10/03/2020          VNM  
+178                    0.0  10/03/2020          NaN  
+179                    0.0  10/03/2020          ZMB  
+180                    0.0  10/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      7                 0   
+1               Albania                     12                 1   
+2               Algeria                     20                 0   
+3               Andorra                      1                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     38                 0   
+178  West Bank and Gaza                     30                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  11/03/2020          AFG  
+1                      0.0  11/03/2020          ALB  
+2                      0.0  11/03/2020          DZA  
+3                      0.0  11/03/2020          AND  
+4                      0.0  11/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  11/03/2020          VEN  
+177                   16.0  11/03/2020          VNM  
+178                    0.0  11/03/2020          NaN  
+179                    0.0  11/03/2020          ZMB  
+180                    0.0  11/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      7                 0   
+1               Albania                     23                 1   
+2               Algeria                     24                 1   
+3               Andorra                      1                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     39                 0   
+178  West Bank and Gaza                     30                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  12/03/2020          AFG  
+1                      0.0  12/03/2020          ALB  
+2                      8.0  12/03/2020          DZA  
+3                      1.0  12/03/2020          AND  
+4                      0.0  12/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  12/03/2020          VEN  
+177                   16.0  12/03/2020          VNM  
+178                    0.0  12/03/2020          NaN  
+179                    0.0  12/03/2020          ZMB  
+180                    0.0  12/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                      7                 0   
+1               Albania                     33                 1   
+2               Algeria                     26                 2   
+3               Andorra                      1                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      0                 0   
+177             Vietnam                     47                 0   
+178  West Bank and Gaza                     31                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  13/03/2020          AFG  
+1                      0.0  13/03/2020          ALB  
+2                      8.0  13/03/2020          DZA  
+3                      0.0  13/03/2020          AND  
+4                      0.0  13/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  13/03/2020          VEN  
+177                   16.0  13/03/2020          VNM  
+178                    0.0  13/03/2020          NaN  
+179                    0.0  13/03/2020          ZMB  
+180                    0.0  13/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                     11                 0   
+1               Albania                     38                 1   
+2               Algeria                     37                 3   
+3               Andorra                      1                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                      2                 0   
+177             Vietnam                     53                 0   
+178  West Bank and Gaza                     35                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  14/03/2020          AFG  
+1                      0.0  14/03/2020          ALB  
+2                     12.0  14/03/2020          DZA  
+3                      1.0  14/03/2020          AND  
+4                      0.0  14/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  14/03/2020          VEN  
+177                   16.0  14/03/2020          VNM  
+178                    0.0  14/03/2020          NaN  
+179                    0.0  14/03/2020          ZMB  
+180                    0.0  14/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                     16                 0   
+1               Albania                     42                 1   
+2               Algeria                     48                 4   
+3               Andorra                      1                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                     10                 0   
+177             Vietnam                     56                 0   
+178  West Bank and Gaza                     38                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      0.0  15/03/2020          AFG  
+1                      0.0  15/03/2020          ALB  
+2                     12.0  15/03/2020          DZA  
+3                      1.0  15/03/2020          AND  
+4                      0.0  15/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  15/03/2020          VEN  
+177                   16.0  15/03/2020          VNM  
+178                    0.0  15/03/2020          NaN  
+179                    0.0  15/03/2020          ZMB  
+180                    0.0  15/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                     21                 0   
+1               Albania                     51                 1   
+2               Algeria                     54                 4   
+3               Andorra                      2                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                     17                 0   
+177             Vietnam                     61                 0   
+178  West Bank and Gaza                     38                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      1.0  16/03/2020          AFG  
+1                      0.0  16/03/2020          ALB  
+2                     12.0  16/03/2020          DZA  
+3                      1.0  16/03/2020          AND  
+4                      0.0  16/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  16/03/2020          VEN  
+177                   16.0  16/03/2020          VNM  
+178                    0.0  16/03/2020          NaN  
+179                    0.0  16/03/2020          ZMB  
+180                    0.0  16/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                     22                 0   
+1               Albania                     55                 1   
+2               Algeria                     60                 4   
+3               Andorra                     39                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                     33                 0   
+177             Vietnam                     66                 0   
+178  West Bank and Gaza                     39                 0   
+179              Zambia                      0                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      1.0  17/03/2020          AFG  
+1                      0.0  17/03/2020          ALB  
+2                     12.0  17/03/2020          DZA  
+3                      1.0  17/03/2020          AND  
+4                      0.0  17/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  17/03/2020          VEN  
+177                   16.0  17/03/2020          VNM  
+178                    0.0  17/03/2020          NaN  
+179                    0.0  17/03/2020          ZMB  
+180                    0.0  17/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                     22                 0   
+1               Albania                     59                 2   
+2               Algeria                     74                 7   
+3               Andorra                     39                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                     36                 0   
+177             Vietnam                     75                 0   
+178  West Bank and Gaza                     41                 0   
+179              Zambia                      2                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      1.0  18/03/2020          AFG  
+1                      0.0  18/03/2020          ALB  
+2                     12.0  18/03/2020          DZA  
+3                      1.0  18/03/2020          AND  
+4                      0.0  18/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  18/03/2020          VEN  
+177                   16.0  18/03/2020          VNM  
+178                    0.0  18/03/2020          NaN  
+179                    0.0  18/03/2020          ZMB  
+180                    0.0  18/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                     22                 0   
+1               Albania                     64                 2   
+2               Algeria                     87                 9   
+3               Andorra                     53                 0   
+4                Angola                      0                 0   
+..                  ...                    ...               ...   
+176           Venezuela                     42                 0   
+177             Vietnam                     85                 0   
+178  West Bank and Gaza                     44                 0   
+179              Zambia                      2                 0   
+180            Zimbabwe                      0                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      1.0  19/03/2020          AFG  
+1                      0.0  19/03/2020          ALB  
+2                     32.0  19/03/2020          DZA  
+3                      1.0  19/03/2020          AND  
+4                      0.0  19/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  19/03/2020          VEN  
+177                   16.0  19/03/2020          VNM  
+178                    0.0  19/03/2020          NaN  
+179                    0.0  19/03/2020          ZMB  
+180                    0.0  19/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                     24                 0   
+1               Albania                     70                 2   
+2               Algeria                     90                11   
+3               Andorra                     75                 0   
+4                Angola                      1                 0   
+..                  ...                    ...               ...   
+176           Venezuela                     42                 0   
+177             Vietnam                     91                 0   
+178  West Bank and Gaza                     47                 0   
+179              Zambia                      2                 0   
+180            Zimbabwe                      1                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      1.0  20/03/2020          AFG  
+1                      0.0  20/03/2020          ALB  
+2                     32.0  20/03/2020          DZA  
+3                      1.0  20/03/2020          AND  
+4                      0.0  20/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  20/03/2020          VEN  
+177                   16.0  20/03/2020          VNM  
+178                    0.0  20/03/2020          NaN  
+179                    0.0  20/03/2020          ZMB  
+180                    0.0  20/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                     24                 0   
+1               Albania                     76                 2   
+2               Algeria                    139                15   
+3               Andorra                     88                 0   
+4                Angola                      2                 0   
+..                  ...                    ...               ...   
+176           Venezuela                     70                 0   
+177             Vietnam                     94                 0   
+178  West Bank and Gaza                     48                 0   
+179              Zambia                      2                 0   
+180            Zimbabwe                      3                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      1.0  21/03/2020          AFG  
+1                      2.0  21/03/2020          ALB  
+2                     32.0  21/03/2020          DZA  
+3                      1.0  21/03/2020          AND  
+4                      0.0  21/03/2020          AGO  
+..                     ...         ...          ...  
+176                    0.0  21/03/2020          VEN  
+177                   17.0  21/03/2020          VNM  
+178                    0.0  21/03/2020          NaN  
+179                    0.0  21/03/2020          ZMB  
+180                    0.0  21/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                     40                 1   
+1               Albania                     89                 2   
+2               Algeria                    201                17   
+3               Andorra                    113                 1   
+4                Angola                      2                 0   
+..                  ...                    ...               ...   
+176           Venezuela                     70                 0   
+177             Vietnam                    113                 0   
+178  West Bank and Gaza                     52                 0   
+179              Zambia                      3                 0   
+180            Zimbabwe                      3                 0   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      1.0  22/03/2020          AFG  
+1                      2.0  22/03/2020          ALB  
+2                     65.0  22/03/2020          DZA  
+3                      1.0  22/03/2020          AND  
+4                      0.0  22/03/2020          AGO  
+..                     ...         ...          ...  
+176                   15.0  22/03/2020          VEN  
+177                   17.0  22/03/2020          VNM  
+178                    0.0  22/03/2020          NaN  
+179                    0.0  22/03/2020          ZMB  
+180                    0.0  22/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                     40                 1   
+1               Albania                    104                 4   
+2               Algeria                    230                17   
+3               Andorra                    133                 1   
+4                Angola                      3                 0   
+..                  ...                    ...               ...   
+176           Venezuela                     77                 0   
+177             Vietnam                    123                 0   
+178  West Bank and Gaza                     59                 0   
+179              Zambia                      3                 0   
+180            Zimbabwe                      3                 1   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      1.0  23/03/2020          AFG  
+1                      2.0  23/03/2020          ALB  
+2                     65.0  23/03/2020          DZA  
+3                      1.0  23/03/2020          AND  
+4                      0.0  23/03/2020          AGO  
+..                     ...         ...          ...  
+176                   15.0  23/03/2020          VEN  
+177                   17.0  23/03/2020          VNM  
+178                    0.0  23/03/2020          NaN  
+179                    0.0  23/03/2020          ZMB  
+180                    0.0  23/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                     74                 1   
+1               Albania                    123                 5   
+2               Algeria                    264                19   
+3               Andorra                    164                 1   
+4                Angola                      3                 0   
+..                  ...                    ...               ...   
+176           Venezuela                     84                 0   
+177             Vietnam                    134                 0   
+178  West Bank and Gaza                     59                 0   
+179              Zambia                      3                 0   
+180            Zimbabwe                      3                 1   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      1.0  24/03/2020          AFG  
+1                     10.0  24/03/2020          ALB  
+2                     24.0  24/03/2020          DZA  
+3                      1.0  24/03/2020          AND  
+4                      0.0  24/03/2020          AGO  
+..                     ...         ...          ...  
+176                   15.0  24/03/2020          VEN  
+177                   17.0  24/03/2020          VNM  
+178                    0.0  24/03/2020          NaN  
+179                    0.0  24/03/2020          ZMB  
+180                    0.0  24/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                     84                 2   
+1               Albania                    146                 5   
+2               Algeria                    302                21   
+3               Andorra                    188                 1   
+4                Angola                      3                 0   
+..                  ...                    ...               ...   
+176           Venezuela                     91                 0   
+177             Vietnam                    141                 0   
+178  West Bank and Gaza                     59                 0   
+179              Zambia                     12                 0   
+180            Zimbabwe                      3                 1   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      2.0  25/03/2020          AFG  
+1                     17.0  25/03/2020          ALB  
+2                     65.0  25/03/2020          DZA  
+3                      1.0  25/03/2020          AND  
+4                      0.0  25/03/2020          AGO  
+..                     ...         ...          ...  
+176                   15.0  25/03/2020          VEN  
+177                   17.0  25/03/2020          VNM  
+178                    0.0  25/03/2020          NaN  
+179                    0.0  25/03/2020          ZMB  
+180                    0.0  25/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                     94                 4   
+1               Albania                    174                 6   
+2               Algeria                    367                25   
+3               Andorra                    224                 3   
+4                Angola                      4                 0   
+..                  ...                    ...               ...   
+176           Venezuela                    107                 0   
+177             Vietnam                    153                 0   
+178  West Bank and Gaza                     84                 1   
+179              Zambia                     16                 0   
+180            Zimbabwe                      3                 1   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      2.0  26/03/2020          AFG  
+1                     17.0  26/03/2020          ALB  
+2                     29.0  26/03/2020          DZA  
+3                      1.0  26/03/2020          AND  
+4                      0.0  26/03/2020          AGO  
+..                     ...         ...          ...  
+176                   15.0  26/03/2020          VEN  
+177                   20.0  26/03/2020          VNM  
+178                    0.0  26/03/2020          NaN  
+179                    0.0  26/03/2020          ZMB  
+180                    0.0  26/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                    110                 4   
+1               Albania                    186                 8   
+2               Algeria                    409                26   
+3               Andorra                    267                 3   
+4                Angola                      4                 0   
+..                  ...                    ...               ...   
+176           Venezuela                    107                 1   
+177             Vietnam                    163                 0   
+178  West Bank and Gaza                     91                 1   
+179              Zambia                     22                 0   
+180            Zimbabwe                      5                 1   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      2.0  27/03/2020          AFG  
+1                     31.0  27/03/2020          ALB  
+2                     29.0  27/03/2020          DZA  
+3                      1.0  27/03/2020          AND  
+4                      0.0  27/03/2020          AGO  
+..                     ...         ...          ...  
+176                   31.0  27/03/2020          VEN  
+177                   20.0  27/03/2020          VNM  
+178                    0.0  27/03/2020          NaN  
+179                    0.0  27/03/2020          ZMB  
+180                    0.0  27/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                    110                 4   
+1               Albania                    197                10   
+2               Algeria                    454                29   
+3               Andorra                    308                 3   
+4                Angola                      5                 0   
+..                  ...                    ...               ...   
+176           Venezuela                    119                 2   
+177             Vietnam                    174                 0   
+178  West Bank and Gaza                     98                 1   
+179              Zambia                     28                 0   
+180            Zimbabwe                      7                 1   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      2.0  28/03/2020          AFG  
+1                     31.0  28/03/2020          ALB  
+2                     31.0  28/03/2020          DZA  
+3                      1.0  28/03/2020          AND  
+4                      0.0  28/03/2020          AGO  
+..                     ...         ...          ...  
+176                   39.0  28/03/2020          VEN  
+177                   21.0  28/03/2020          VNM  
+178                    0.0  28/03/2020          NaN  
+179                    0.0  28/03/2020          ZMB  
+180                    0.0  28/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                    120                 4   
+1               Albania                    212                10   
+2               Algeria                    511                31   
+3               Andorra                    334                 6   
+4                Angola                      7                 2   
+..                  ...                    ...               ...   
+176           Venezuela                    119                 2   
+177             Vietnam                    188                 0   
+178  West Bank and Gaza                    109                 1   
+179              Zambia                     29                 0   
+180            Zimbabwe                      7                 1   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      2.0  29/03/2020          AFG  
+1                     33.0  29/03/2020          ALB  
+2                     31.0  29/03/2020          DZA  
+3                      1.0  29/03/2020          AND  
+4                      0.0  29/03/2020          AGO  
+..                     ...         ...          ...  
+176                   39.0  29/03/2020          VEN  
+177                   25.0  29/03/2020          VNM  
+178                    0.0  29/03/2020          NaN  
+179                    0.0  29/03/2020          ZMB  
+180                    0.0  29/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                    170                 4   
+1               Albania                    223                11   
+2               Algeria                    584                35   
+3               Andorra                    370                 8   
+4                Angola                      7                 2   
+..                  ...                    ...               ...   
+176           Venezuela                    135                 3   
+177             Vietnam                    203                 0   
+178  West Bank and Gaza                    116                 1   
+179              Zambia                     35                 0   
+180            Zimbabwe                      7                 1   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      2.0  30/03/2020          AFG  
+1                     44.0  30/03/2020          ALB  
+2                     37.0  30/03/2020          DZA  
+3                     10.0  30/03/2020          AND  
+4                      0.0  30/03/2020          AGO  
+..                     ...         ...          ...  
+176                   39.0  30/03/2020          VEN  
+177                   55.0  30/03/2020          VNM  
+178                    0.0  30/03/2020          NaN  
+179                    0.0  30/03/2020          ZMB  
+180                    0.0  30/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                    174                 4   
+1               Albania                    243                15   
+2               Algeria                    716                44   
+3               Andorra                    376                12   
+4                Angola                      7                 2   
+..                  ...                    ...               ...   
+176           Venezuela                    135                 3   
+177             Vietnam                    212                 0   
+178  West Bank and Gaza                    119                 1   
+179              Zambia                     35                 0   
+180            Zimbabwe                      8                 1   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      5.0  31/03/2020          AFG  
+1                     52.0  31/03/2020          ALB  
+2                     46.0  31/03/2020          DZA  
+3                     10.0  31/03/2020          AND  
+4                      1.0  31/03/2020          AGO  
+..                     ...         ...          ...  
+176                   39.0  31/03/2020          VEN  
+177                   58.0  31/03/2020          VNM  
+178                    0.0  31/03/2020          NaN  
+179                    0.0  31/03/2020          ZMB  
+180                    0.0  31/03/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                    237                 4   
+1               Albania                    259                15   
+2               Algeria                    847                58   
+3               Andorra                    390                14   
+4                Angola                      8                 2   
+..                  ...                    ...               ...   
+176           Venezuela                    143                 3   
+177             Vietnam                    218                 0   
+178  West Bank and Gaza                    134                 1   
+179              Zambia                     36                 0   
+180            Zimbabwe                      8                 1   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                      5.0  01/04/2020          AFG  
+1                     67.0  01/04/2020          ALB  
+2                     61.0  01/04/2020          DZA  
+3                     10.0  01/04/2020          AND  
+4                      1.0  01/04/2020          AGO  
+..                     ...         ...          ...  
+176                   41.0  01/04/2020          VEN  
+177                   63.0  01/04/2020          VNM  
+178                    0.0  01/04/2020          NaN  
+179                    0.0  01/04/2020          ZMB  
+180                    0.0  01/04/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                    273                 6   
+1               Albania                    277                16   
+2               Algeria                    986                86   
+3               Andorra                    428                15   
+4                Angola                      8                 2   
+..                  ...                    ...               ...   
+176           Venezuela                    146                 5   
+177             Vietnam                    233                 0   
+178  West Bank and Gaza                    161                 1   
+179              Zambia                     39                 1   
+180            Zimbabwe                      9                 1   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                     10.0  02/04/2020          AFG  
+1                     76.0  02/04/2020          ALB  
+2                     61.0  02/04/2020          DZA  
+3                     10.0  02/04/2020          AND  
+4                      1.0  02/04/2020          AGO  
+..                     ...         ...          ...  
+176                   43.0  02/04/2020          VEN  
+177                   75.0  02/04/2020          VNM  
+178                    0.0  02/04/2020          NaN  
+179                    0.0  02/04/2020          ZMB  
+180                    0.0  02/04/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                    281                 6   
+1               Albania                    304                17   
+2               Algeria                   1171               105   
+3               Andorra                    439                16   
+4                Angola                      8                 2   
+..                  ...                    ...               ...   
+176           Venezuela                    153                 7   
+177             Vietnam                    237                 0   
+178  West Bank and Gaza                    194                 1   
+179              Zambia                     39                 1   
+180            Zimbabwe                      9                 1   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                     10.0  03/04/2020          AFG  
+1                     89.0  03/04/2020          ALB  
+2                     62.0  03/04/2020          DZA  
+3                     16.0  03/04/2020          AND  
+4                      1.0  03/04/2020          AGO  
+..                     ...         ...          ...  
+176                   52.0  03/04/2020          VEN  
+177                   85.0  03/04/2020          VNM  
+178                    0.0  03/04/2020          NaN  
+179                    2.0  03/04/2020          ZMB  
+180                    0.0  03/04/2020          ZWE  
+
+[181 rows x 6 columns]","         Country_Region  Total_Confirmed_Cases  Total_Fatalities  \
+0           Afghanistan                    299                 7   
+1               Albania                    333                20   
+2               Algeria                   1251               130   
+3               Andorra                    466                17   
+4                Angola                     10                 2   
+..                  ...                    ...               ...   
+176           Venezuela                    155                 7   
+177             Vietnam                    240                 0   
+178  West Bank and Gaza                    217                 1   
+179              Zambia                     39                 1   
+180            Zimbabwe                      9                 1   
+
+     Total_Recovered_Cases        Date alpha-3_code  
+0                     10.0  04/04/2020          AFG  
+1                     99.0  04/04/2020          ALB  
+2                     90.0  04/04/2020          DZA  
+3                     21.0  04/04/2020          AND  
+4                      2.0  04/04/2020          AGO  
+..                     ...         ...          ...  
+176                   52.0  04/04/2020          VEN  
+177                   90.0  04/04/2020          VNM  
+178                    0.0  04/04/2020          NaN  
+179                    2.0  04/04/2020          ZMB  
+180                    0.0  04/04/2020          ZWE  
+
+[181 rows x 6 columns]"

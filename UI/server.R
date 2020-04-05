@@ -30,7 +30,7 @@ shinyServer(function(input, output) {
         if (input$data_select!='Null') {
             read.csv(input$data_select, header=TRUE)
         } else {
-            read.csv(input$file)
+            read.csv(input$file$datapath, header=TRUE)
         }
     })
     
@@ -82,6 +82,14 @@ shinyServer(function(input, output) {
         "
     })
     
+    # Map
+    getPage<-function() {
+        return(includeHTML("COVID19_map.html"))
+    }
+    
+    output$map <- renderUI({getPage()
+    })
+    
     # Target variable visualization using timeseries plot
     tar_name <- reactive({
         names(data() %>% select_if(is.numeric))
@@ -96,13 +104,17 @@ shinyServer(function(input, output) {
     })
 
     # Timeseries plot
-    output$time <- renderPlot({
+    output$time <- renderPlotly({
         # choose the numeric columns
         subdata <- data()[data()[,'Country_Region'] == input$country, ]
-        subdata$Date <- as.Date(subdata$Date)
+        subdata$Date <- as.Date(subdata$Date, format="%d/%m/%Y")
         #tsdat <- ts(numData, frequency=6, start=c(2020, 1), end=c(2020,3))
-        ggplot(data = subdata, aes(x = Date, y = get(input$target1))) + geom_line(linetype = "dashed") +
-        geom_point() + xlab("Date") + ylab(input$target1)
+        Value = input$target1
+        ggplot(data = subdata, aes(x = Date, y = get(Value))) + 
+            geom_line(linetype = "dashed") +
+            geom_point() + 
+            xlab("Date") + 
+            ylab(input$target1)
             #tsdat, main="Timeseries of Numerical Variables", type = "l", col = alpha(rainbow(ncol(numData)), 0.4), xlab = "Date", ylab = "Values" ) 
     })
     
@@ -116,12 +128,18 @@ shinyServer(function(input, output) {
         str4 <- paste("Active Confirmed Case: " , subdata[nrow(subdata), 'Remaining_Confirmed_Cases'])
         str5 <- paste("Cumulative Confirmed Case: " , subdata[nrow(subdata), 'Total_Confirmed_Cases'])
         str6 <- paste("Cumulative Recovered Case: " , subdata[nrow(subdata), 'Total_Recovered_Cases'])
-        str7 <- paste("Cumulative Fatalities: " , subdata[nrow(subdata), 'Total_Fatalities'])
-        HTML(paste(str0, str1, str2, str3, str4, str5, str6, str7, sep = '<br/>'))
+        str7 <- paste("Recovered Rate: " , format(subdata[nrow(subdata), 'Total_Recovered_Cases'] * 100 / subdata[nrow(subdata), 'Total_Confirmed_Cases'], digits=1, nsmall=1), "%")
+        str8 <- paste("Cumulative Fatalities: " , subdata[nrow(subdata), 'Total_Fatalities'])
+        str9 <- paste("Mortality: " , format(subdata[nrow(subdata), 'Total_Fatalities'] * 100 / subdata[nrow(subdata), 'Total_Confirmed_Cases'], digits=1, nsmall=1),"%")
+        HTML(paste(str0, str1, str2, str3, str4, str5, str6, str7, str8, str9, sep = '<br/>'))
         
     })
     
-    #Epidemic Model
+    # Epidemic Model
+    # Parameter estimation
+    #output$Developing <- renderText(
+        #"Under Developing"
+    #)
     # SIR Model
     output$Country1 <- renderUI({
         selectInput("country1","Select Country/Region", choices=unique(data()[,"Country_Region"]), selected="New Zealand")

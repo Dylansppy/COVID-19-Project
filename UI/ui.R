@@ -18,7 +18,8 @@ domChoices <- c("l","f","r","t","i","p")
 # Define UI for application 
 shinyUI(fluidPage(
     # Application title
-    titlePanel("COVID-19 Visualization and Analysis Tool - Peng Shen (Dylan)"),
+    titlePanel("COVID-19 Visualization and Analysis Tool"),
+    
     
     # Print Option
     tags$head(tags$style(HTML("
@@ -42,13 +43,18 @@ shinyUI(fluidPage(
             title = "Dataset",
             sidebarLayout(
                 sidebarPanel(
-                    selectInput("data_select","Select a dataset", choices=c('Country_Level_Info.csv','Null'), selected='Country_Level_Info.csv'),
+                    selectInput("data_select","My Dataset", choices=c('Country_Level_Info.csv','Null'), selected='Country_Level_Info.csv'),
                     fileInput("file", label = "Or Import a CSV file"),
                     checkboxInput("rownames", "Show Row Names", value=T),
                     checkboxInput("order", "Column Ordering", value=T),
                     selectInput("selection", "Selection Type", choices=c("none","single","multiple"), selected = "none"),
                     selectInput("filter", "Filter Type", choices=c("none","top","bottom"), selected = "none"),
-                    selectInput("dom", "DOM", choices=domChoices, multiple = TRUE, selected=domChoices)
+                    selectInput("dom", "DOM", choices=domChoices, multiple = TRUE, selected=domChoices),
+                    tags$h5("Author: Peng Shen (Dylan)"),
+                    tags$h5(a("Dataset", href="https://www.kaggle.com/dylansp/covid19-country-level-data-for-epidemic-model", target="_blank")),
+                    tags$h5(a("Github", href="https://github.com/Dylansppy/COVID-19-Project", target="_blank")),
+                    tags$h5(a("Website", href="https://dylan-portfolio-app.herokuapp.com", target="_blank")),
+                    tags$h5(a("Linkedin", href="https://www.linkedin.com/in/dylan-shen-peng", target="_blank"))
                 ),
                 mainPanel(DT::dataTableOutput("Dataset"),
                           textOutput("Data_Str"),
@@ -68,7 +74,10 @@ shinyUI(fluidPage(
         tabPanel(
             title = "Vasulization",
             tabsetPanel(
-                tabPanel(title="Global Map"),
+                # Map Panel
+                tabPanel(title="Global Situation",
+                         htmlOutput("map")
+                ),
                 # Timeseries Panel
                 tabPanel(title="Country-Level Trend",
                          icon=icon("chart-line"),
@@ -78,7 +87,7 @@ shinyUI(fluidPage(
                                  uiOutput("Timeseries_select")
                              ),
                              mainPanel(
-                                 plotOutput("time"),
+                                 plotlyOutput("time"),
                                  htmlOutput("latest_case")
                              )
                          )
@@ -90,8 +99,9 @@ shinyUI(fluidPage(
         tabPanel(
             title = "Epidemic Model",
             tabsetPanel(
-                tabPanel(title = "Parameter Estimation"
-                ),
+                #tabPanel(title = "Parameter Estimation",
+                         #textOutput("Developing")
+                #),
                 tabPanel(title = "SIR Model",
                          sidebarLayout(
                              sidebarPanel(
