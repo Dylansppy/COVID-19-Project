@@ -8,10 +8,11 @@
 ###   Country Level Data
 ###   Patient Level Data
 
-## 3. Epidemic Model
+## 3. COVID-19 Visualization and Analysis Tool (GUI)
+### https://dylansp.shinyapps.io/COVID19_Visualization_Analysis_Tool/
+
+## 4. Epidemic Model
 ###   Model construction (Deterministic vs. Stochastic Simulation)
 ###   Parameter Estimation and model fit testing
-
-## 4. COVID-19 Visualization and Analysis Tool (GUI)
 
 ## 5. Further Insights 
