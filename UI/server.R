@@ -100,7 +100,7 @@ shinyServer(function(input, output) {
     })
     
     output$Timeseries_select <- renderUI({
-        selectInput("target1","Case", choices=tar_name(), selected=tar_name()[4])
+        selectInput("target1","Case", choices=tar_name(), selected=tar_name()[2])
     })
 
     # Timeseries plot
