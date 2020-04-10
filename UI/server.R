@@ -7,16 +7,6 @@
 #    http://shiny.rstudio.com/
 #
 
-#library(shiny)
-#library(DT)
-#library(MASS)
-#library(mlbench)
-#library(tidyverse)
-#library(ggplot2)
-#library(reshape2)
-#library(caret)
-#data(iris)
-#data(Glass)
 
 # Define server logic 
 shinyServer(function(input, output) {
@@ -33,6 +23,73 @@ shinyServer(function(input, output) {
             read.csv(input$file$datapath, header=TRUE)
         }
     })
+    
+    # Map
+    #worldcountry = geojson_read("countries.geo.json", what = "sp")
+    
+    #reactive_countries <- reactive({
+    #unique(data()[,'alpha.3_code']) %in% worldcountry$id
+    #})
+    # create plotting parameters for map
+    #bins = c(0,1,10,50,100,500)
+    #cv_pal <- colorBin("Oranges", domain = cv_large_countries$per100k, bins = bins)
+    #fitBounds(0,-25,90,65) # alternative coordinates for closer zoom
+    #output$mymap <- renderLeaflet({ 
+        #leaflet(worldcountry[worldcountry$id %in% reactive_countries(),]) %>% 
+            #addTiles() %>% 
+            #addProviderTiles(providers$CartoDB.Positron) %>%
+            #fitBounds(~-100,-50,~80,80) #%>%
+        #addLegend("bottomright", pal = cv_pal, values = ~cv_large_countries$per100k,
+        #title = "<small>Active cases per 100,000</small>") #%>%
+    #})
+    
+    # Map
+    getPage<-function() {
+        return(includeHTML("COVID19_map.html"))
+    }
+    
+    output$map <- renderUI({getPage()
+    })
+    
+    globe_data = reactive({
+        data() %>% filter(Country_Region == 'Globe')
+    })
+    
+    reactive_data = reactive({
+        globe_data()[order(as.Date(globe_data()$Date, format="%d/%m/%Y")), ]
+    })
+        
+    today = reactive({
+        reactive_data()[nrow(reactive_data()), 'Date']
+    })
+    
+    lastest_data = reactive({
+        reactive_data()  %>% filter(Date == today())
+    })
+    
+    output$reactive_case_count <- renderText({
+        paste0(prettyNum(lastest_data()$Total_Confirmed_Cases, big.mark=","), " cases")
+    })
+    
+    output$reactive_death_count <- renderText({
+        paste0(prettyNum(lastest_data()$Total_Fatalities, big.mark=","), " deaths")
+    })
+    
+    output$reactive_recovered_count <- renderText({
+        paste0(prettyNum(lastest_data()$Total_Recovered_Cases, big.mark=","), " recovered")
+    })
+    
+    output$reactive_active_count <- renderText({
+        paste0(prettyNum(lastest_data()$Remaining_Confirmed_Cases, big.mark=","), " active cases")
+    })
+    
+    output$reactive_date <- renderText({
+        format(as.Date(lastest_data()$Date, format="%Y-%m-%d"),"%d %B %Y")
+    })
+    
+    #output$reactive_country_count <- renderText({
+        #paste0(nrow(data()[data()$Date==today(),]), " countries/regions affected")
+    #})
     
     # DataTable
     output$Dataset <- DT::renderDataTable({
@@ -54,40 +111,12 @@ shinyServer(function(input, output) {
         #formatRound(c("hp"), 3)
     })
     
-    # Title of data structure
-    output$Data_Str <- renderText({
-        "Data Structure"
-    })
-    
-    # Dataset structure
-    output$Structure <- renderPrint({
-        str(data())
-    })
-    
     # Summary statistics
     output$Summary <- renderPrint({
         summarytools::dfSummary(data(),
                   method = 'render',
                   omit.headings = TRUE,
                   bootstrap.css = FALSE)
-    })
-    
-    # Description of summary
-    output$Summary_result <- renderText({
-        "Description - There is no missing data in the iris and Glass dataset and
-        a total of 150 and 214 observations in iris and Glass dataset respectively.
-        All the predictors are numeric in iris and Glass dataset.
-        Outcome variable in iris dataset is a factor variable with 3 levels, 
-        while in Glass dataset the outcome variable is a factor variable with 6 levels.
-        "
-    })
-    
-    # Map
-    getPage<-function() {
-        return(includeHTML("COVID19_map.html"))
-    }
-    
-    output$map <- renderUI({getPage()
     })
     
     # Target variable visualization using timeseries plot
@@ -107,7 +136,7 @@ shinyServer(function(input, output) {
     output$time <- renderPlotly({
         # choose the numeric columns
         subdata <- data()[data()[,'Country_Region'] == input$country, ]
-        subdata$Date <- as.Date(subdata$Date, format="%d/%m/%Y")
+        subdata$Date <- as.Date(subdata$Date, format="%Y-%m-%d")
         #tsdat <- ts(numData, frequency=6, start=c(2020, 1), end=c(2020,3))
         Value = input$target1
         ggplot(data = subdata, aes(x = Date, y = get(Value))) + 
@@ -132,7 +161,6 @@ shinyServer(function(input, output) {
         str8 <- paste("Cumulative Fatalities: " , subdata[nrow(subdata), 'Total_Fatalities'])
         str9 <- paste("Mortality: " , format(subdata[nrow(subdata), 'Total_Fatalities'] * 100 / subdata[nrow(subdata), 'Total_Confirmed_Cases'], digits=1, nsmall=1),"%")
         HTML(paste(str0, str1, str2, str3, str4, str5, str6, str7, str8, str9, sep = '<br/>'))
-        
     })
     
     # Epidemic Model
