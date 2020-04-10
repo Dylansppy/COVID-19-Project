@@ -161,7 +161,9 @@ shinyUI(fluidPage(
                                  checkboxInput("order", "Column Ordering", value=T),
                                  selectInput("selection", "Selection Type", choices=c("none","single","multiple"), selected = "none"),
                                  selectInput("filter", "Filter Type", choices=c("none","top","bottom"), selected = "none"),
-                                 selectInput("dom", "DOM", choices=domChoices, multiple = TRUE, selected=domChoices)
+                                 selectInput("dom", "DOM", choices=domChoices, multiple = TRUE, selected=domChoices),
+                                 tags$h5(a("Dataset", href="https://www.kaggle.com/dylansp/covid19-country-level-data-for-epidemic-model", target="_blank")),
+                                 tags$h5(a("Github", href="https://github.com/Dylansppy/COVID-19-Project", target="_blank"))
                              ),
                              mainPanel(DT::dataTableOutput("Dataset")
                              )
@@ -179,8 +181,6 @@ shinyUI(fluidPage(
         # About Author
         tabPanel(title = "About Author",
                  tags$h5("Peng Shen (Dylan)"),
-                 tags$h5(a("Dataset", href="https://www.kaggle.com/dylansp/covid19-country-level-data-for-epidemic-model", target="_blank")),
-                 tags$h5(a("Github", href="https://github.com/Dylansppy/COVID-19-Project", target="_blank")),
                  tags$h5(a("Website", href="https://dylan-portfolio-app.herokuapp.com", target="_blank")),
                  tags$h5(a("Linkedin", href="https://www.linkedin.com/in/dylan-shen-peng", target="_blank"))
         )
