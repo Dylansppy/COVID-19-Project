@@ -91,34 +91,6 @@ shinyServer(function(input, output) {
         #paste0(nrow(data()[data()$Date==today(),]), " countries/regions affected")
     #})
     
-    # DataTable
-    output$Dataset <- DT::renderDataTable({
-        DT::datatable(data = data(),
-                      rownames = input$rownames,
-                      selection = input$selection,
-                      filter = list(position = input$filter),
-                      options = list(searching = TRUE,
-                                     pageLength = 10,
-                                     lengthMenu = c(10, 100, 300),
-                                     dom = paste(input$dom, collapse = ""),
-                                     ordering = input$order
-                      ),
-                      extensions = ext
-        )  %>%
-        formatStyle(columns = 1, backgroundColor = "lightblue")  #%>%
-        #formatCurrency(c(2), '$') %>%
-        #formatPercentage(3, 2) %>%
-        #formatRound(c("hp"), 3)
-    })
-    
-    # Summary statistics
-    output$Summary <- renderPrint({
-        summarytools::dfSummary(data(),
-                  method = 'render',
-                  omit.headings = TRUE,
-                  bootstrap.css = FALSE)
-    })
-    
     # Target variable visualization using timeseries plot
     tar_name <- reactive({
         names(data() %>% select_if(is.numeric))
@@ -245,4 +217,33 @@ shinyServer(function(input, output) {
         lines(D, col="DarkTurquoise", lty=1)
         legend(280,N,c("Susceptible","Exposed","Infected","Recovered", "Dead"),col=c("DeepPink","Orange","RosyBrown","Green","DarkTurquoise"),text.col=c("DeepPink","Orange","RosyBrown","Green", "DarkTurquoise"),lty=c(1,1,1,1,1))
     })
+    
+    # DataTable
+    output$Dataset <- DT::renderDataTable({
+        DT::datatable(data = data(),
+                      rownames = input$rownames,
+                      selection = input$selection,
+                      filter = list(position = input$filter),
+                      options = list(searching = TRUE,
+                                     pageLength = 10,
+                                     lengthMenu = c(10, 100, 300),
+                                     dom = paste(input$dom, collapse = ""),
+                                     ordering = input$order
+                      ),
+                      extensions = ext
+        )  %>%
+            formatStyle(columns = 1, backgroundColor = "lightblue")  #%>%
+        #formatCurrency(c(2), '$') %>%
+        #formatPercentage(3, 2) %>%
+        #formatRound(c("hp"), 3)
+    })
+    
+    # Summary statistics
+    output$Summary <- renderPrint({
+        summarytools::dfSummary(data(),
+                                method = 'render',
+                                omit.headings = TRUE,
+                                bootstrap.css = FALSE)
+    })
+    
 })
