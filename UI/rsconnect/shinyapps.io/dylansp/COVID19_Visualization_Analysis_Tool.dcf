@@ -5,9 +5,9 @@ account: dylansp
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2059475
-bundleId: 3140773
+bundleId: 3146200
 url: https://dylansp.shinyapps.io/COVID19_Visualization_Analysis_Tool/
-when: 1589354609.77916
+when: 1589446067.66538
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: .ipynb_checkpoints/Map-checkpoint.ipynb|Manuscript
