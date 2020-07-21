@@ -129,7 +129,7 @@ shinyServer(function(input, output) {
         str4 <- paste("Active Confirmed Case: " , subdata[nrow(subdata), 'Remaining_Confirmed_Cases'])
         str5 <- paste("Cumulative Confirmed Case: " , subdata[nrow(subdata), 'Total_Confirmed_Cases'])
         str6 <- paste("Cumulative Recovered Case: " , subdata[nrow(subdata), 'Total_Recovered_Cases'])
-        str7 <- paste("Recovered Rate: " , format(subdata[nrow(subdata), 'Total_Recovered_Cases'] * 100 / subdata[nrow(subdata), 'Total_Confirmed_Cases'], digits=1, nsmall=1), "%")
+        str7 <- paste("Recovery Rate: " , format(subdata[nrow(subdata), 'Total_Recovered_Cases'] * 100 / subdata[nrow(subdata), 'Total_Confirmed_Cases'], digits=1, nsmall=1), "%")
         str8 <- paste("Cumulative Fatalities: " , subdata[nrow(subdata), 'Total_Fatalities'])
         str9 <- paste("Mortality: " , format(subdata[nrow(subdata), 'Total_Fatalities'] * 100 / subdata[nrow(subdata), 'Total_Confirmed_Cases'], digits=1, nsmall=1),"%")
         HTML(paste(str0, str1, str2, str3, str4, str5, str6, str7, str8, str9, sep = '<br/>'))
